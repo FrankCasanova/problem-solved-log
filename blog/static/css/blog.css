@@ -1,0 +1,112 @@
+body { 
+    margin:0;
+    padding:0;
+    font-family:helvetica, sans-serif; 
+    background-color:#020016 ;
+    color: #04ce0a;
+}
+
+a { 
+    color:red;
+    text-decoration:none; 
+}
+
+h1 { 
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+    color: #05ec0a;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+}
+
+#content { 
+    float:left;
+    width:60%;
+    padding:0 0 0 30px; 
+}
+
+#sidebar { 
+    color: #05ec0a;
+    float:right;
+    width:30%;
+    padding:10px;
+    background:#031430; 
+    height:100%;
+}
+
+p.date { 
+    color:#04ce0a;
+    font-family: georgia, serif;
+    font-size: 12px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+/* forms */
+label { 
+    float:left;
+    clear:both;
+    color:#05ec0a;
+    margin-bottom:4px; 
+}
+input, textarea { 
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:#073580;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+    color: white;
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#05ec0a;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+}
+.button{
+    font-weight:bold;
+    background:#05ec0a;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+    border: none;
+}
+.errorlist { 
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
+  
+
+/* comments */
+.comment textarea {
+    padding:10px;
+    background: #031430;
+    
+    
+
+}
+.comment:nth-child(even) {
+    background:#031430;
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#05ec09ad;
+}
