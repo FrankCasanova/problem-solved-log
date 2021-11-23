@@ -10,6 +10,7 @@ markdown = "*"
 psycopg2-binary = "*"
 environs = {extras = ["django"], version = "*"}
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 
